@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="main.js"></script>
+    <title>Rock, Paper, Scissors</title>
+  </head>
+  <body>
+    <h1>Rock, Paper, Scissors.</h1>
+
+    <form id="form">
+      <h3 id="displayName"></h3>
+      <label for="playerName">Enter your name: </label>
+      <input type="text" id="playerName" />
+      <button id="startGame" type="submit" form="form" value="Submit">
+        Start Game
+      </button>
+    </form>
+
+    <div id="displayPlayerChoice">Player choice:</div>
+    <div id="displayComputerChoice">Computer choice:</div>
+    <div id="displayPlayerScore">Player Score:</div>
+    <div id="displayComputerScore">Computer Score:</div>
+    <div id="displayResult"></div>
+    <div id="displayGameResult"></div>
+    <div>
+      <button id="rock" class="choiceButtons">Rock</button>
+      <button id="paper" class="choiceButtons">Paper</button>
+      <button id="scissors" class="choiceButtons">Scissors</button>
+    </div>
+
+    <div class="playerCard"></div>
+  </body>
+</html>
